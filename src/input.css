@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../assets/fonts/Inter-VariableFont_opsz\,wght.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: Lexend-Deca;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../assets/fonts/LexendDeca-VariableFont_wght.ttf") format("woff2");
+}
+
+@theme {
+    --color-Very-dark-blue: hsl(251,47%, 7%);
+    --color-Dark-desaturated-blue: hsl(244,38%, 16%);
+    --color-Soft-violet: hsl(277, 64%, 61%);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --color-Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+    --color-filter: hsla(277, 99%, 23%);
+
+    --font-Inter: Inter;
+    --font-Lexend-Deca: Lexend-Deca;
+
+}
+
